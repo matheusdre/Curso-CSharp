@@ -4,6 +4,9 @@ using CursoCSharp.Fundamentos;
 using CursoCSharp.EstruturasDeControle;
 using CursoCSharp.EstruturaDeRepetiçao;
 using CursoCSharp.ClassesEMetodos;
+using CursoCSharp.Colecoes;
+using CursoCSharp.OO;
+
 
 
 namespace CursoCSharp {
@@ -29,9 +32,20 @@ namespace CursoCSharp {
                 {" Membros - Classes e Metodos ",Membros.Executar },
                 {" Construtores - Classes e Métodos",Construtores.Executar },
                 {" Metodos com Retornos - Classes e Métodos",MetodosComRetorno.Executar },
-                {" Exercicio Metodos - Classes e Métodos " ,ExercicioMetodosComRetornos.Executar }
+                {" Exercicio Metodos - Classes e Métodos " ,ExercicioMetodosComRetornos.Executar },
+                {" Get e Set Segundo Exemplo - Classes e Métodos",GetESetSegundoExemplo.Executar },
+                //COLEÇÕES
+                {" Arrays - Coleçoes",Arrays.Executar },
+                {" Exercicio Classes e Metodos",ExercicioClassesEMetodos.Executar },
+                {" Exercicio Arrays ",ExercicioArrays.Executar },
+                {" Fazendo Filas - Queue - Coleções",Queue.Executar },
+                {" Stack - Coleções",Stacks.Executar },
 
-            });
+                {" Herança - OO" ,Heranca.Executar },
+                {" Herança2 - 00 ",Heranca2.Executar },
+                {" Encapsulamento - OO ",Encapsulamento.Executar }
+            }); ;
+            
         
             central.SelecionarEExecutar();
         }
